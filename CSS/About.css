@@ -1,0 +1,135 @@
+/* style for about title */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+.About-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+    
+}
+
+
+/* style for profile container */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgb( 0, 0, 0, 0.2);
+    margin: 0 50px;
+    padding-top: 7px;
+    border-radius: 16px;
+    background-color: cadetblue;
+}
+
+.card img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+.profile-container {
+    text-align: center;
+}
+
+.profile-title {
+    color: cadetblue;
+}
+
+.profile-btn {
+    border: none;
+    border-radius: 10px;
+    outline: 0;
+    display: inline-block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 12px;
+    background-color: white;
+    text-decoration: none;
+    color: solid black;
+    width: 40%;
+    text-align: center;
+}
+
+.profile-btn:hover {
+    background-color: silver;
+}
+
+
+/* style for skill bar of  */
+
+.skill-bar {
+    width: 100%;
+    background-color: cadetblue;
+    margin: 20px 20px;
+}
+
+.skill-bar p {
+    font-size: 18px;
+}
+
+.HTML-skill {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+    background-color: green;
+    color: whitesmoke;
+    width: 100%;
+    text-align: right;
+}
+
+.CSS-skill {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+    background-color: purple;
+    color: whitesmoke;
+    width: 92%;
+    text-align: right;
+}
+
+.WordPress-skill {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+    background-color: springgreen;
+    color: whitesmoke;
+    width: 92%;
+    text-align: right;
+}
+
+.JavaScript-skill {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+    background-color: orangered;
+    color: whitesmoke;
+    width: 90%;
+    text-align: right;
+}
+
+.Analytics-skill {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+    background-color: goldenrod;
+    color: whitesmoke;
+    width: 85%;
+    text-align: right;
+}
+
+.design-skill {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    background-color: blue;
+    color: whitesmoke;
+    width: 80%;
+    text-align: right;
+}

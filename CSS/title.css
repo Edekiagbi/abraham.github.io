@@ -1,0 +1,12 @@
+/* style for tittle section */
+
+.section-title {
+    text-align: center;
+    border: 1px solid blueviolet;
+    background-color: darkgray;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}

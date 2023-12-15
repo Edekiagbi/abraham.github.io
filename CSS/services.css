@@ -1,0 +1,80 @@
+/* style for our services */
+
+.Services-container {
+    margin: 6px;
+    padding: 1px;
+    border: 1px solid black;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+
+
+    
+}
+
+.Our-Services {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    margin: 2px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: darkkhaki;
+    outline: 0;
+}
+
+.Services-title {
+    text-align: center;
+    color: green;
+}
+
+.services-text {
+    text-align: center;
+    color: black;
+}
+
+.services-btn {
+    border: 1px solid black;
+    background-color: darkgoldenrod;
+    color: whitesmoke;
+    padding: 5px;
+    text-decoration: none;
+}
+.section-title {
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: blue;
+    overflow: none;
+
+    
+}
+
+@media ( max-width: 600px) {
+    .Our-Services {
+        display: block;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5px;
+    }
+    .Services-container {
+        border: none;
+    }
+}
+
+@media ( orientation: landscape) {
+    .Our-Services {
+        display: inline-block;
+        text-align: center;
+        width: 30%;
+        padding: 5px 5px 10px 5px;
+        border: 1px solid black;
+        box-shadow: 1px 1px solid black;
+        border-radius: 10px;
+        background-color: darkcyan;
+    }
+}
